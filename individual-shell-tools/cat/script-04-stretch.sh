@@ -13,3 +13,10 @@ set -euo pipefail
 # 3 It looked delicious.
 # 4 I was tempted to take a bite of it.
 # 5 But this seemed like a bad idea...
+
+cat -n ../helper-files/*
+
+# How it works:
+
+# cat -n with multiple files normally resets line numbers per file
+# But with * wildcard, cat treats all files as one continuous stream, so line numbers keep incrementing across all files

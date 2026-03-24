@@ -9,3 +9,9 @@ set -euo pipefail
 # 1 It looked delicious.
 # 2 I was tempted to take a bite of it.
 # 3 But this seemed like a bad idea...
+
+cat -n ../helper-files/helper-3.txt
+
+# How it works:
+
+# cat -n is the same cat command but the -n flag adds line numbers to the output

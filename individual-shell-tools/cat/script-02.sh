@@ -11,3 +11,11 @@ set -euo pipefail
 # It looked delicious.
 # I was tempted to take a bite of it.
 # But this seemed like a bad idea...
+
+
+cat ../helper-files/*
+
+# * is a wildcard that matches all files inside the helper-files directory
+# So cat helper-files/* expands to all files at once, letting you call cat just once
+# cat then prints them all in alphabetical file order
+
