@@ -8,3 +8,14 @@ set -euo pipefail
 #        1       7      39 ../helper-files/helper-2.txt
 #        3      19      92 ../helper-files/helper-3.txt
 #        5      30     151 total
+
+
+#---------------answer--------------
+
+wc ../helper-files/*
+
+# How it works:
+
+# wc — without any flags, outputs lines, words, and characters for each file
+# ../helper-files/* — runs across all files in the directory
+# automatically adds a total line at the end when multiple files are given
