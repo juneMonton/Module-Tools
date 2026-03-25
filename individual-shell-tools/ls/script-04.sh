@@ -21,3 +21,19 @@ echo "Second exercise (sorted oldest to newest):"
 
 # TODO: Write a command which does the same as above, but sorted in the opposite order (oldest first).
 # The output should be a list of names in this order, one per line: helper-2.txt, helper-1.txt, helper-3.txt.
+
+
+#-------------answer--------------
+
+# First exercise (sorted newest to oldest):
+ls -t1 child-directory
+
+# Second exercise (sorted oldest to newest):
+ls -tr1 child-directory
+
+# How it works:
+
+# -t — sorts by modification time, newest first
+# -r — reverses the order, making it oldest first
+# -1 — displays one file per line
+# child-directory — the folder to list
