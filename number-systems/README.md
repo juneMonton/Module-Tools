@@ -53,13 +53,15 @@ If reading the byte 0x21 as a number, what decimal number would it mean?
 Answer:33
 
 If reading the byte 0x21 as an ASCII character, what character would it mean?
-Answer:!
+Answer:! (exclamation point)
 
 If reading the byte 0x21 as a greyscale colour, as described in "Approaches for Representing Colors and Images", what colour would it mean?
 Answer:Dark color
 
 If reading the bytes 0xAA00FF as an RGB colour, as described in "Approaches for Representing Colors and Images", what colour would it mean?
-Answer:purple
+Answer: purple
 
 If reading the bytes 0xAA00FF as a sequence of three one-byte decimal numbers, what decimal numbers would they be?
-Answer:255
+Answer: 255
+
+
