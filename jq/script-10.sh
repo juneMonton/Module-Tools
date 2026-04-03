@@ -13,3 +13,4 @@ jq '[.[].scores[0]] | add' scores.json
 # .scores[0] — extracts the first score from each player
 # [...] — wraps all the first scores into a new array: [1, 22, 3, 1, 15, 12]
 # | add — sums all the numbers in that array together: 54
+

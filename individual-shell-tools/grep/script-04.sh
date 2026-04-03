@@ -10,4 +10,7 @@ grep -iv "Hello" dialogue.txt
 # How it works:
 
 # -i makes the search case-insensitive
+
 # -v inverts the match — prints every line that does not contain the word "Hello"
+
+# prints the empty line as well
