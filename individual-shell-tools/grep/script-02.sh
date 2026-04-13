@@ -10,7 +10,11 @@ grep -in "Doctor" dialogue.txt
 # How it works:
 
 # grep — scans files and returns lines that match a pattern
+
 # -i — makes the search case-insensitive, matching Doctor, doctor, DOCTOR etc.
+
 # -n — shows the line number of each matching line
+
 # "Doctor" — the pattern to search for
+
 # dialogue.txt — the file to search in

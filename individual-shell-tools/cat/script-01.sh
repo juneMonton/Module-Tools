@@ -11,3 +11,4 @@ cat ../helper-files/helper-1.txt
 
 # cat reads a file and prints its contents to the terminal
 # helper-files/helper-1.txt is the relative path — it looks for a folder called helper-files in your current directory, then the file inside it
+
